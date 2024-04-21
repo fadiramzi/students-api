@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\StudentsAPIWithDB_RD.props" />
+</Project>
