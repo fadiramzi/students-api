@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\StudentsAPIAuth.csproj": {}
+    "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerMW\\StudentsAPIAuth.csproj": {}
   },
   "projects": {
-    "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\StudentsAPIAuth.csproj": {
+    "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerMW\\StudentsAPIAuth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\StudentsAPIAuth.csproj",
+        "projectUniqueName": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerMW\\StudentsAPIAuth.csproj",
         "projectName": "StudentsAPIAuth",
-        "projectPath": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\StudentsAPIAuth.csproj",
+        "projectPath": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerMW\\StudentsAPIAuth.csproj",
         "packagesPath": "C:\\Users\\fadir\\.nuget\\packages\\",
-        "outputPath": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\obj\\",
+        "outputPath": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerMW\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fadir\\AppData\\Roaming\\NuGet\\NuGet.Config",

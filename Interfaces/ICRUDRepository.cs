@@ -1,11 +1,11 @@
-﻿using StudentsAPIAuth.Models;
+﻿using StudentsManagerMW.Models;
 
-namespace StudentsAPIAuth.Interfaces
+namespace StudentsManagerMW.Interfaces
 {
     public interface ICRUDRepository<TEntity> where TEntity : class
     {
         TEntity GetById(int id);
-        IEnumerable<TEntity> GetAll();
+        Task<IEnumerable<TEntity>> GetAll(int page, int pageSize);
         void Add(TEntity entity);
         void Update(TEntity entity);
         void Delete(TEntity entity);

@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using StudentsAPIAuth.EFCore;
+using StudentsManagerMW.EFCore;
 
 #nullable disable
 
-namespace StudentsAPIAuth.Migrations
+namespace StudentsManagerMW.Migrations
 {
     [DbContext(typeof(AppDBContext))]
     [Migration("20240420192418_init_migration")]

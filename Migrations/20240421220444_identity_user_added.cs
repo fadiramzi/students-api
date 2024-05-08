@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace StudentsAPIAuth.Migrations
+namespace StudentsManagerMW.Migrations
 {
     /// <inheritdoc />
     public partial class identity_user_added : Migration

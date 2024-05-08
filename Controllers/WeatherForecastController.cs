@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace StudentsAPIAuth.Controllers
+namespace StudentsManagerMW.Controllers
 {
     [ApiController]
     [Route("[controller]")]

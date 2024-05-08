@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "XsD5KET1J8jeNwWOLShT1REy78tXl7NctVIVADO95VE=",
-  "Source": "StudentsAPIAuth",
-  "BasePath": "_content/StudentsAPIAuth",
+  "Hash": "xE5oOGVOA6fqzIEXpLXsVo6neCzB/l9p1I2bx08wwhc=",
+  "Source": "StudentsManagerMW",
+  "BasePath": "_content/StudentsManagerMW",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

@@ -1,7 +1,7 @@
-﻿using StudentsAPIAuth.Interfaces;
-using StudentsAPIAuth.Models;
+﻿using StudentsManagerMW.Interfaces;
+using StudentsManagerMW.Models;
 
-namespace StudentsAPIAuth.Services
+namespace StudentsManagerMW.Services
 {
     public class StudentService:IStudentService
     {
@@ -11,9 +11,9 @@ namespace StudentsAPIAuth.Services
         {
             _studentRepository = studentRepository;
         }
-        public IEnumerable<Student> GetAllStudents()
-        {
-            return _studentRepository.GetAll();
+        public async Task<IEnumerable<Student>> GetAllStudents(int page, int pageSize, string sortBy, string sortOrder , string name)
+        { 
+            return await _studentRepository.GetAll(page, pageSize,sortBy, sortOrder,name);
         }
 
         public Student GetStudentById(int id)
@@ -21,6 +21,7 @@ namespace StudentsAPIAuth.Services
             var student = _studentRepository.GetById(id);
             return student;
         }
+
 
         public Student CreateStudent(Student student)
         {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using StudentsAPIAuth.Interfaces;
+using StudentsManagerMW.Interfaces;
 
-namespace StudentsAPIAuth.Repositories
+namespace StudentsManagerMW.Repositories
 {
     public class CRUDRespository<TEntity> : ICRUDRepository<TEntity> where TEntity : class
     {
@@ -10,6 +10,16 @@ namespace StudentsAPIAuth.Repositories
         public CRUDRespository(DbContext dbContext)
         {
             _context = dbContext;
+
+        }
+
+        public async Task<IEnumerable<TEntity>> GetAll(int page, int pageSize)
+        {
+            int skip = (page - 1) * pageSize;
+            return await _context.Set<TEntity>()
+                .Skip(skip)
+                .Take(pageSize)
+                .ToListAsync();
 
         }
         public void Add(TEntity entity)
@@ -22,11 +32,7 @@ namespace StudentsAPIAuth.Repositories
             _context.Set<TEntity>().Remove(entity);
         }
 
-        public IEnumerable<TEntity> GetAll()
-        {
-           return _context.Set<TEntity>().ToList();
-
-        }
+       
 
         public TEntity GetById(int id)
         {

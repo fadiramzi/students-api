@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using StudentsAPIAuth.Models;
+using StudentsManagerMW.Models;
 
-namespace StudentsAPIAuth.EFCore
+namespace StudentsManagerMW.EFCore
 {
     public class AppDBContext:IdentityDbContext<IdentityUser>
     {

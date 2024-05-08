@@ -1,8 +1,9 @@
-﻿using StudentsAPIAuth.Models;
+﻿using StudentsManagerMW.Models;
 
-namespace StudentsAPIAuth.Interfaces
+namespace StudentsManagerMW.Interfaces
 {
     public interface IStudentRepository:ICRUDRepository<Student>
     {
+        public Task<IEnumerable<Student>> GetAll(int page, int pageSize, string sortBy, string sortOrder , string name);
     }
 }

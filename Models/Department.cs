@@ -1,4 +1,4 @@
-﻿namespace StudentsAPIAuth.Models
+﻿namespace StudentsManagerMW.Models
 {
     public class Department
     {

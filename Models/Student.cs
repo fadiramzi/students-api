@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace StudentsAPIAuth.Models
+namespace StudentsManagerMW.Models
 {
     // Student.cs
     public class Student

@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using StudentsAPIAuth.EFCore;
+using StudentsManagerMW.EFCore;
 
 #nullable disable
 
-namespace StudentsAPIAuth.Migrations
+namespace StudentsManagerMW.Migrations
 {
     [DbContext(typeof(AppDBContext))]
     [Migration("20240421220444_identity_user_added")]
@@ -212,7 +212,7 @@ namespace StudentsAPIAuth.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("StudentsAPIAuth.Models.Department", b =>
+            modelBuilder.Entity("StudentsManagerMW.Models.Department", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -227,7 +227,7 @@ namespace StudentsAPIAuth.Migrations
                     b.ToTable("Departments");
                 });
 
-            modelBuilder.Entity("StudentsAPIAuth.Models.Student", b =>
+            modelBuilder.Entity("StudentsManagerMW.Models.Student", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -302,9 +302,9 @@ namespace StudentsAPIAuth.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("StudentsAPIAuth.Models.Student", b =>
+            modelBuilder.Entity("StudentsManagerMW.Models.Student", b =>
                 {
-                    b.HasOne("StudentsAPIAuth.Models.Department", "Department")
+                    b.HasOne("StudentsManagerMW.Models.Department", "Department")
                         .WithMany("Students")
                         .HasForeignKey("DepartmentId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -313,7 +313,7 @@ namespace StudentsAPIAuth.Migrations
                     b.Navigation("Department");
                 });
 
-            modelBuilder.Entity("StudentsAPIAuth.Models.Department", b =>
+            modelBuilder.Entity("StudentsManagerMW.Models.Department", b =>
                 {
                     b.Navigation("Students");
                 });

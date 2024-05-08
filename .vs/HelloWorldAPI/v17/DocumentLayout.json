@@ -1,93 +1,93 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\",
+  "WorkspaceRootPath": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\migrations\\20240421220444_identity_user_added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:migrations\\20240421220444_identity_user_added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\studentsapiauth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:studentsapiauth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\studentsapiauth.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:studentsapiauth.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\models\\inputs\\studentinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:models\\inputs\\studentinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\repositories\\crudrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\migrations\\20240421220444_identity_user_added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:migrations\\20240421220444_identity_user_added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\studentsapiauth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:studentsapiauth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\studentsmanagerasync.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:studentsmanagerasync.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\models\\inputs\\studentinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:models\\inputs\\studentinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\repositories\\crudrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:repositories\\crudrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\interfaces\\icrudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\interfaces\\icrudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:interfaces\\icrudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\migrations\\20240420192418_init_migration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\migrations\\20240420192418_init_migration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:migrations\\20240420192418_init_migration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\migrations\\20240420192418_init_migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\migrations\\20240420192418_init_migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:migrations\\20240420192418_init_migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsapiauth\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|e:\\programming planet\\vs\\c#\\projects\\web\\test\\studentsmanagerasync\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A59F5E2E-20F1-4685-94C4-2F97F1901A74}|StudentsAPIAuth.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -98,15 +98,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "20240421220444_identity_user_added.cs",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Migrations\\20240421220444_identity_user_added.cs",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Migrations\\20240421220444_identity_user_added.cs",
               "RelativeDocumentMoniker": "Migrations\\20240421220444_identity_user_added.cs",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Migrations\\20240421220444_identity_user_added.cs",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Migrations\\20240421220444_identity_user_added.cs",
               "RelativeToolTip": "Migrations\\20240421220444_identity_user_added.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAQwBQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -115,191 +115,206 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentRepository.cs",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Repositories\\StudentRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\StudentRepository.cs",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Repositories\\StudentRepository.cs",
-              "RelativeToolTip": "Repositories\\StudentRepository.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA1wA8AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T19:52:19.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Student.cs",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "Models\\Student.cs",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Models\\Student.cs",
-              "RelativeToolTip": "Models\\Student.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAABZwBgAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T19:42:17.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Services\\StudentService.cs",
-              "RelativeDocumentMoniker": "Services\\StudentService.cs",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Services\\StudentService.cs",
-              "RelativeToolTip": "Services\\StudentService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwA0AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T21:46:02.085Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "StudentInput.cs",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Models\\Inputs\\StudentInput.cs",
-              "RelativeDocumentMoniker": "Models\\Inputs\\StudentInput.cs",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Models\\Inputs\\StudentInput.cs",
-              "RelativeToolTip": "Models\\Inputs\\StudentInput.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAMAAAA",
+              "Title": "Student.cs",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA+wBgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T20:37:58.365Z"
+              "WhenOpened": "2024-04-16T19:42:17.889Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "AppDBContext.cs",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Database\\AppDBContext.cs",
-              "RelativeDocumentMoniker": "Database\\AppDBContext.cs",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Database\\AppDBContext.cs",
-              "RelativeToolTip": "Database\\AppDBContext.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAA4AAAA",
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "Services\\StudentService.cs",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Services\\StudentService.cs",
+              "RelativeToolTip": "Services\\StudentService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwA0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T12:19:57.894Z"
+              "WhenOpened": "2024-04-18T21:46:02.085Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Department.cs",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Models\\Department.cs",
-              "RelativeDocumentMoniker": "Models\\Department.cs",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Models\\Department.cs",
-              "RelativeToolTip": "Models\\Department.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
+              "Title": "StudentInput.cs",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Models\\Inputs\\StudentInput.cs",
+              "RelativeDocumentMoniker": "Models\\Inputs\\StudentInput.cs",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Models\\Inputs\\StudentInput.cs",
+              "RelativeToolTip": "Models\\Inputs\\StudentInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T19:07:55.298Z"
+              "WhenOpened": "2024-04-21T20:37:58.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Database\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "Database\\AppDBContext.cs",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Database\\AppDBContext.cs",
+              "RelativeToolTip": "Database\\AppDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T12:19:57.894Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACgAAAAAAAAA",
+              "Title": "Department.cs",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Models\\Department.cs",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Models\\Department.cs",
+              "RelativeToolTip": "Models\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T18:27:18.728Z"
+              "WhenOpened": "2024-04-20T19:07:55.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T18:27:18.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\StudentRepository.cs",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "Repositories\\StudentRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwA8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T19:52:19.284Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "CRUDRespository.cs",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Repositories\\CRUDRespository.cs",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Repositories\\CRUDRespository.cs",
               "RelativeDocumentMoniker": "Repositories\\CRUDRespository.cs",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Repositories\\CRUDRespository.cs",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Repositories\\CRUDRespository.cs",
               "RelativeToolTip": "Repositories\\CRUDRespository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T19:44:27.66Z"
+              "WhenOpened": "2024-04-21T19:44:27.66Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "StudentController.cs",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Controllers\\StudentController.cs",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Controllers\\StudentController.cs",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Controllers\\StudentController.cs",
               "RelativeToolTip": "Controllers\\StudentController.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAnwB0AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T19:45:21.167Z"
+              "WhenOpened": "2024-04-16T19:45:21.167Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T18:27:24.991Z"
+              "WhenOpened": "2024-04-11T18:27:24.991Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "IStudentRepository.cs",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Interfaces\\IStudentRepository.cs",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Interfaces\\IStudentRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IStudentRepository.cs",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Interfaces\\IStudentRepository.cs",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Interfaces\\IStudentRepository.cs",
               "RelativeToolTip": "Interfaces\\IStudentRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T19:54:00.631Z"
+              "WhenOpened": "2024-04-21T19:54:00.631Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "ICRUDRepository.cs",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Interfaces\\ICRUDRepository.cs",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Interfaces\\ICRUDRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\ICRUDRepository.cs",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Interfaces\\ICRUDRepository.cs",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Interfaces\\ICRUDRepository.cs",
               "RelativeToolTip": "Interfaces\\ICRUDRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T19:38:42.165Z"
+              "WhenOpened": "2024-04-21T19:38:42.165Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "IStudentService.cs",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Interfaces\\IStudentService.cs",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Interfaces\\IStudentService.cs",
               "RelativeDocumentMoniker": "Interfaces\\IStudentService.cs",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Interfaces\\IStudentService.cs",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Interfaces\\IStudentService.cs",
               "RelativeToolTip": "Interfaces\\IStudentService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T21:42:06.919Z"
+              "WhenOpened": "2024-04-18T21:42:06.919Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "AppDBContextModelSnapshot.cs",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Migrations\\AppDBContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Migrations\\AppDBContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\AppDBContextModelSnapshot.cs",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Migrations\\AppDBContextModelSnapshot.cs",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Migrations\\AppDBContextModelSnapshot.cs",
               "RelativeToolTip": "Migrations\\AppDBContextModelSnapshot.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAMBdwAUAAAAVAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAEBlwAUAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T19:26:33.143Z"
+              "WhenOpened": "2024-04-20T19:26:33.143Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "20240420192418_init_migration.Designer.cs",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Migrations\\20240420192418_init_migration.Designer.cs",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Migrations\\20240420192418_init_migration.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20240420192418_init_migration.Designer.cs",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Migrations\\20240420192418_init_migration.Designer.cs",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Migrations\\20240420192418_init_migration.Designer.cs",
               "RelativeToolTip": "Migrations\\20240420192418_init_migration.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T19:30:49.036Z"
+              "WhenOpened": "2024-04-21T19:30:49.036Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "StudentsAPIAuth.csproj",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\StudentsAPIAuth.csproj",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\StudentsAPIAuth.csproj",
               "RelativeDocumentMoniker": "StudentsAPIAuth.csproj",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\StudentsAPIAuth.csproj",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\StudentsAPIAuth.csproj",
               "RelativeToolTip": "StudentsAPIAuth.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -309,21 +324,22 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "20240420192418_init_migration.cs",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Migrations\\20240420192418_init_migration.cs",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Migrations\\20240420192418_init_migration.cs",
               "RelativeDocumentMoniker": "Migrations\\20240420192418_init_migration.cs",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Migrations\\20240420192418_init_migration.cs",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Migrations\\20240420192418_init_migration.cs",
               "RelativeToolTip": "Migrations\\20240420192418_init_migration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T19:24:18.749Z"
+              "WhenOpened": "2024-04-20T19:24:18.749Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Properties\\launchSettings.json",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -333,21 +349,22 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\WeatherForecast.cs",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WeatherForecast.cs",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\WeatherForecast.cs",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\WeatherForecast.cs",
               "RelativeToolTip": "WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T21:49:36.291Z"
+              "WhenOpened": "2024-04-15T21:49:36.291Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\appsettings.json",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\appsettings.json",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -355,12 +372,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentsAPIAuth.http",
-              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\StudentsAPIAuth.http",
-              "RelativeDocumentMoniker": "StudentsAPIAuth.http",
-              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsAPIAuth\\StudentsAPIAuth.http",
-              "RelativeToolTip": "StudentsAPIAuth.http",
+              "DocumentIndex": 4,
+              "Title": "StudentsManagerAsync.http",
+              "DocumentMoniker": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\StudentsManagerAsync.http",
+              "RelativeDocumentMoniker": "StudentsManagerAsync.http",
+              "ToolTip": "E:\\Programming Planet\\VS\\C#\\Projects\\web\\test\\StudentsManagerAsync\\StudentsManagerAsync.http",
+              "RelativeToolTip": "StudentsManagerAsync.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
               "WhenOpened": "2024-04-15T21:51:06.141Z"

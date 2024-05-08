@@ -1,8 +1,9 @@
-﻿using StudentsAPIAuth.EFCore;
-using StudentsAPIAuth.Interfaces;
-using StudentsAPIAuth.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using StudentsManagerMW.EFCore;
+using StudentsManagerMW.Interfaces;
+using StudentsManagerMW.Models;
 
-namespace StudentsAPIAuth.Repositories
+namespace StudentsManagerMW.Repositories
 {
     public class StudentRepository:CRUDRespository<Student>, IStudentRepository
     {
@@ -13,9 +14,49 @@ namespace StudentsAPIAuth.Repositories
         }
         // CRUD operations
 
-        public IEnumerable<Student> GetAll()
+        public async Task<IEnumerable<Student>> GetAll(int page, int pageSize, string name, string sortBy, string sortOrder)
         {
-            return _context.Students.ToList();
+            
+            IQueryable<Student> query = _context.Students;
+
+            if (!string.IsNullOrEmpty(name))
+            {
+               query = query.Where(s => s.Name.Contains(name));
+            }
+            int skip = (page - 1) * pageSize;
+            query = OrderBy(query, sortBy, sortOrder);
+            return await query
+                .Skip(skip)
+                .Take(pageSize)
+                .ToListAsync();
+        }
+
+        private IQueryable<Student> OrderBy(IQueryable<Student> query, string sortBy, string sortOrder)
+        {
+            if (sortOrder == "asc")
+            {
+                switch (sortBy)
+                {
+                    case "name":
+                        return query.OrderBy(s => s.Name);
+                    case "id":
+                        return query.OrderBy(s => s.Id);
+                    default:
+                        return query.OrderBy(s => s.Id);
+                }
+            }
+            else
+            {
+                switch (sortBy)
+                {
+                    case "name":
+                        return query.OrderByDescending(s => s.Name);
+                    case "id":
+                        return query.OrderByDescending(s => s.Id);
+                    default:
+                        return query.OrderByDescending(s => s.Id);
+                }
+            }   
         }
         public Student GetById(int id)
         {
