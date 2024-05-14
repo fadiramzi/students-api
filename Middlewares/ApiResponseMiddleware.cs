@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.AspNetCore.Diagnostics;
+using Newtonsoft.Json;
 using StudentsManagerMW.Models.APIResponse;
 using System.Text;
 
@@ -13,94 +14,85 @@ namespace StudentsManagerMW.Middlewares
             _next = next;
         }
 
-        public async Task Invoke(HttpContext context)
+        public async Task InvokeAsync(HttpContext context)
         {
-            // Intercept the response
+            // Capture the original response body stream
             var originalBodyStream = context.Response.Body;
-            using (var responseBody = new MemoryStream())
-            {
-                context.Response.Body = responseBody;
 
-                try
+            try
+            {
+                using (var responseBody = new MemoryStream())
                 {
+                    // Replace the original response body with the MemoryStream
+                    context.Response.Body = responseBody;
+
+                    // Call the next middleware in the pipeline
                     await _next(context);
 
-                    // Reset the stream position
+                    // Rewind the MemoryStream to read its content
                     responseBody.Seek(0, SeekOrigin.Begin);
 
-                    // Read the response
-                    var responseBodyString = await new StreamReader(responseBody).ReadToEndAsync();
-
-                    // Deserialize original response
-                    object originalResponse = null;
-                    try
+                    if (context.Response.StatusCode == StatusCodes.Status200OK)
                     {
-                        originalResponse = JsonConvert.DeserializeObject(responseBodyString);
-                    }
-                    catch (JsonException)
-                    {
-                        // Response is not a valid JSON, maybe a string or primitive type
-                        originalResponse = responseBodyString;
-                    }
+                        // Success response
+                        var responseBodyContent = await new StreamReader(responseBody).ReadToEndAsync();
 
-                    // Format response
-                    var formattedResponse = new ApiResponse<object>();
-
-                    if (context.Response.StatusCode >= 200 && context.Response.StatusCode < 300)
-                    {
-                        formattedResponse.IsSuccess = true;
-                        // Check if the response content type is JSON
-                        if (context.Response.ContentType?.ToLower().Contains("application/json") == true)
+                        var response = new ApiResponse<object>
                         {
-                            formattedResponse.Result = JsonConvert.DeserializeObject(responseBodyString);
-                        }
-                        else
-                        {
-                            // Include response string as is
-                            formattedResponse.Result = responseBodyString;
-                        }
+                            IsSuccess = true,
+                            Result = JsonConvert.DeserializeObject(responseBodyContent),
+                            Error = null
+                        };
+
+                        // Serialize and write the response
+                        var jsonResponse = JsonConvert.SerializeObject(response);
+                        context.Response.ContentType = "application/json";
+                        await context.Response.WriteAsync(jsonResponse);
                     }
                     else
                     {
-                        formattedResponse.IsSuccess = false;
-                        formattedResponse.Error = new ApiError
+                        // Error response
+                        var response = new ApiResponse<object>
                         {
-                            Code = context.Response.StatusCode,
-                            Description = "An error occurred"
+                            IsSuccess = false,
+                            Result = null,
+                            Error = new ApiError
+                            {
+                                Code = context.Response.StatusCode,
+                                Description = context.Features.Get<IStatusCodeReExecuteFeature>()?.OriginalPath ?? context.Response.HttpContext.Features.Get<IExceptionHandlerFeature>()?.Error.ToString()
+                            }
                         };
+
+                        // Serialize and write the response
+                        var jsonResponse = JsonConvert.SerializeObject(response);
+                        context.Response.ContentType = "application/json";
+                        await context.Response.WriteAsync(jsonResponse);
                     }
 
-                    // Convert response to JSON
-                    var jsonResponse = JsonConvert.SerializeObject(formattedResponse);
-
-                    // Write the formatted response
-                    context.Response.ContentType = "application/json";
-                    context.Response.ContentLength = Encoding.UTF8.GetByteCount(jsonResponse);
-                    await context.Response.WriteAsync(jsonResponse);
-
-                    // Restore the original body stream
+                    // Copy the captured response body back to the original response stream
                     responseBody.Seek(0, SeekOrigin.Begin);
                     await responseBody.CopyToAsync(originalBodyStream);
                 }
-                catch (Exception ex)
-                {
-                    // Handle exceptions
-                    context.Response.StatusCode = 500;
-                    var errorResponse = new ApiResponse<object>
-                    {
-                        IsSuccess = false,
-                        Error = new ApiError
-                        {
-                            Code = 500,
-                            Description = "An internal server error occurred"
-                        }
-                    };
-                    var jsonResponse = JsonConvert.SerializeObject(errorResponse);
-                    context.Response.ContentType = "application/json";
-                    context.Response.ContentLength = Encoding.UTF8.GetByteCount(jsonResponse);
-                    await context.Response.WriteAsync(jsonResponse);
-                }
             }
+            finally
+            {
+                // Restore the original response body stream
+                context.Response.Body = originalBodyStream;
+            }
+        }
+        private async Task<string> FormatResponse(HttpResponse response)
+        {
+            response.Body.Seek(0, SeekOrigin.Begin);
+            var text = await new StreamReader(response.Body).ReadToEndAsync();
+            response.Body.Seek(0, SeekOrigin.Begin);
+            return text;
+        }
+
+        private async Task WriteResponse(HttpResponse response, ApiResponse<object> responseObject)
+        {
+            var jsonResponse = JsonConvert.SerializeObject(responseObject);
+            var buffer = Encoding.UTF8.GetBytes(jsonResponse);
+            await response.Body.WriteAsync(buffer, 0, buffer.Length);
         }
     }
 }

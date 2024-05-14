@@ -16,7 +16,7 @@ namespace StudentsManagerMW.EFCore
             // Configure the relationship between Student and Department
             modelBuilder.Entity<Student>()
                 .HasOne(s => s.Department)
-                .WithMany(d => d.Students)
+                .WithMany()
                 .HasForeignKey(s => s.DepartmentId)
                 .OnDelete(DeleteBehavior.Restrict); // Specify the delete behavior if needed
 

@@ -14,7 +14,7 @@ namespace StudentsManagerMW.Repositories
         }
         // CRUD operations
 
-        public async Task<IEnumerable<Student>> GetAll(int page, int pageSize, string name, string sortBy, string sortOrder)
+        public async Task<IEnumerable<Student>> GetAll(int page, int pageSize, string sortBy, string sortOrder, string name)
         {
             
             IQueryable<Student> query = _context.Students;

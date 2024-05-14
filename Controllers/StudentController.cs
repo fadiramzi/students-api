@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Asp.Versioning;
 using log4net;
+using StudentsManagerMW.Models.APIResponse;
 
 namespace StudentsManagerMW.Controllers
 {
@@ -69,21 +70,19 @@ namespace StudentsManagerMW.Controllers
         [HttpGet("{id}")]
         public IActionResult GetStudentById(int id)
         {
-            // Logic to retrieve a student by id (not implemented)
-
-            // Check if student with the provided ID exists in the list
-            var student = _studentService.GetStudentById(id);
-            if (student != null)
+            try
             {
-                // Return the retrieved student if found
+                // Check if student with the provided ID exists in the list
+                var student = _studentService.GetStudentById(id);
+                var name = student.Name;
+
+                // Wrap the response in a custom response object
                 return Ok(student);
             }
-            else
+            catch (Exception ex)
             {
-               
-
-                // Return status code 404 (Not Found) if student with the provided ID is not found
-                return NotFound($"Student with ID {id} not found");
+                // Return error response
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error occurred");
             }
         }
 
